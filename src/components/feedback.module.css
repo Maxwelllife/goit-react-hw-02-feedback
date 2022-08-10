@@ -1,0 +1,22 @@
+.feedback {
+  background-color: tomato;
+  padding: 10px;
+  margin: 20px;
+  border-radius: 5px;
+}
+.buttons {
+  display: flex;
+}
+button {
+  padding: 5px;
+  margin-right: 10px;
+  border-radius: 3px;
+  border: none;
+}
+ul {
+  padding-left: 0;
+}
+li {
+  list-style-type: none;
+  margin-bottom: 10px;
+}
