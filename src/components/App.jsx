@@ -13,10 +13,10 @@ class App extends Component {
     bad: 0,
   };
 
-  onLeaveFeedback = props => {
+  onLeaveFeedback = options => {
     this.setState(prevState => {
       return {
-        [props]: prevState[props] + 1,
+        [options]: prevState[options] + 1,
       };
     });
   };
